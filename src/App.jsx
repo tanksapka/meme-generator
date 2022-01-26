@@ -1,10 +1,10 @@
 import "./App.css";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <div className="App">
-      <img src="./trollface.svg" alt="Problem?" />
-      Problem?
+      <Header />
     </div>
   );
 }

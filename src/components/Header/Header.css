@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: #ffffff;
+}
+
+.header .logo {
+  display: flex;
+  column-gap: 1em;
+}
+
+.header .logo img {
+  width: 3em;
+}
+
+.header .logo h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: -0.2rem;
+}
+
+.header h3 {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
